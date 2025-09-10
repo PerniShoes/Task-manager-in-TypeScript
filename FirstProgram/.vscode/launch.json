@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Program",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+        "program": "C:\\Users\\marek\\Desktop\\Programing\\TypeScript\\FirstProgram\\FirstProgram\\src\\app.ts",
+        "preLaunchTask":  "tsc: build - tsconfig.json",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "console": "externalTerminal"
+    }
+  ],
+  "compounds": []
+}

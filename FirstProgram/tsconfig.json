@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES6", // modern JS
+        "module": "commonjs", // Node.js friendly
+        "rootDir": "src", // your TS source files
+        "outDir": "dist", // compiled JS output
+        "strict": true, // type checks
+        "removeComments": true, // Comments removed inside JS
+        "noEmitOnError": true,
+        "esModuleInterop": true, // allows `import x from "y"` for CommonJS modules
+        "forceConsistentCasingInFileNames": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+
+        "sourceMap": true
+    }
+}
